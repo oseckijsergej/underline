@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="src/underline.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#content').underline({initTimeOut: 100});
+        });
+    </script>
+</head>
+<body>
+<style>
+    body{
+        font-size: 30px;
+    }
+    img{
+        max-width: 25%;
+        float:left;
+    }
+</style>
+<div id="content">
+    <img src="http://cumbrianrun.co.uk/wp-content/uploads/2014/02/default-placeholder.png">
+    Lorem ipsum dolor sit amet,<span class="foo"> consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    <span>sociis natoque penatibus</span> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+</div>
+
+
+</body>
+</html>

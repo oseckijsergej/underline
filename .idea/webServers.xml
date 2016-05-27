@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="815604e9-edf1-4be8-8605-e3e730d995ad" name="underline.clubdev.ru" url="http://underline.clubdev.ru">
+        <fileTransfer host="91.218.97.10" port="22" rootFolder="/var/www/underline.clubdev.ru" accessType="SFTP" password="dfe8dfc2dfeadfc0dfdddf89df89dffedfeddfe0" username="hike">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

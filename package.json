@@ -1,0 +1,16 @@
+{
+  "name": "underline-js",
+  "version": "1.0.0",
+  "description": "Create underlines",
+  "main": "gulpfile-compiled.js",
+  "devDependencies": {
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
